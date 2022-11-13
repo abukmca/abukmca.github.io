@@ -1,6 +1,6 @@
 {
-    "name": "ibc",
-    "short_name": "ibc",
+    "name": "ibc_fe",
+    "short_name": "ibc_fe",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
