@@ -22640,7 +22640,7 @@ XF(){var s=0,r=A.T(t.z),q,p
 var $async$XF=A.O(function(a,b){if(a===1)return A.Q(b,r)
 while(true)switch(s){case 0:q=t.N
 s=2
-return A.L(A.av5(A.l0("https://intense-sands-62487.herokuapp.com/api/client"),A.ax(["Content-Type","application/json","Accept","application/json","Authorization","token "+$.abq],q,q)),$async$XF)
+return A.L(A.av5(A.l0("http://34.82.88.131:8000/api/client"),A.ax(["Content-Type","application/json","Accept","application/json","Authorization","token "+$.abq],q,q)),$async$XF)
 case 2:p=b
 if(p.b===200)$.k2=B.aw.ck(0,A.anK(A.anh(p.e).c.a.h(0,"charset")).ck(0,p.w))
 return A.R(null,r)}})
@@ -22649,7 +22649,7 @@ XG(){var s=0,r=A.T(t.z),q,p
 var $async$XG=A.O(function(a,b){if(a===1)return A.Q(b,r)
 while(true)switch(s){case 0:q=t.N
 s=2
-return A.L(A.av5(A.l0("https://intense-sands-62487.herokuapp.com/api/particulars"),A.ax(["Content-Type","application/json","Accept","application/json","Authorization","token "+$.abq],q,q)),$async$XG)
+return A.L(A.av5(A.l0("http://34.82.88.131:8000/api/particulars"),A.ax(["Content-Type","application/json","Accept","application/json","Authorization","token "+$.abq],q,q)),$async$XG)
 case 2:p=b
 if(p.b===200)$.avg=B.aw.ck(0,A.anK(A.anh(p.e).c.a.h(0,"charset")).ck(0,p.w))
 return A.R(null,r)}})
@@ -72470,7 +72470,7 @@ while(true)switch(s){case 0:m=q.c.a.a
 l=q.d.a.a
 k=t.N
 s=2
-return A.L(A.aKq(A.l0("https://intense-sands-62487.herokuapp.com/api/login"),A.ax(["username",m,"password",l],k,k)),$async$nD)
+return A.L(A.aKq(A.l0("http://34.82.88.131:8000/api/login"),A.ax(["username",m,"password",l],k,k)),$async$nD)
 case 2:j=c
 s=j.b===200?3:5
 break
